@@ -1,0 +1,10 @@
+UBBLE SORT.
+def swap_pairwise(arr):
+    number=len(arr)
+    for i in range(0, number-1):
+        for j in range (0, number-i-1):
+            if arr[j]>arr[j+1]:
+                arr[j],arr[j+1]=arr[j+1],arr[j]
+array_1 = array('i',[54,87,23,6,98,8])
+swap_pairwise(array_1)
+print("final sorted list=",array_1)
