@@ -1,4 +1,4 @@
-UBBLE SORT.
+BUBBLE SORT.
 def swap_pairwise(arr):
     number=len(arr)
     for i in range(0, number-1):
